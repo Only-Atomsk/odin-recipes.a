@@ -9,6 +9,7 @@ div {
 body {
     background-color: rgb(182, 182, 182);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
 }
 .describtion, .ingredients, .steps {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,13 +18,60 @@ body {
     text-align: center;
     font-weight: bolder;
     background-color: rgb(204, 204, 204);
+    padding: 20px;
+    outline: 5px green solid;
+    width: 800px;
+    margin: 40px auto;
 }
 
 .ingredients {
     color: red;
+    outline: red 5px solid;
+
 }
 .image {
     width: 600px;
     height: auto;
     align-items: center;
+    outline: white 8px solid;
+}
+.steps {
+    padding: 40px;
+}
+
+.stepsname {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    outline: 5px green solid;
+    width: 200px;
+    margin: 40px auto;
+}
+.ingredientsname {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    outline: 5px red solid;
+    width: 200px;
+    margin: 40px auto;
+}
+.describtionname {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    outline: 5px green solid;
+    width: 200px;
+    margin: 40px auto;
 }

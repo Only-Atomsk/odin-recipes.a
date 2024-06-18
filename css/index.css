@@ -30,4 +30,9 @@ p {
 .flag {
     width: 450px;
     height: auto;
+    outline: white 9px solid;
+}
+
+a {
+    text-decoration: none;
 }
